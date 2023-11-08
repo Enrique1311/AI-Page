@@ -1,0 +1,13 @@
+:root {
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+	--gradient-text: linear-gradient(89.97deg, green 1.84%, blue 1.844);
+	--gradient-bar: linear-gradient(103.22deg, green -13.86%, blue 1.844);
+
+	--color-bg: black;
+	--color-footer: rgb(33, 33, 33);
+	--color-blog: rgb(18, 18, 80);
+	--color-text: rgb(24, 189, 245);
+	--color-subtext: rgb(251, 166, 129);
+	--color-orange: rgb(250, 78, 10);
+}
