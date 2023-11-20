@@ -9,7 +9,7 @@ const Menu = () => (
 	<div className="navbar-menu">
 		<div className="navbar-links-container">
 			<a href="#home">Home</a>
-			<a href="#whatIsGTP">What is GTP?</a>
+			<a href="#whatGTP3">What is GTP?</a>
 			<a href="#openAI">Open AI</a>
 			<a href="#caseStudies">Case Studies</a>
 			<a href="#library">Library</a>
@@ -26,7 +26,7 @@ const Navbar = () => {
 	const [toggleMenu, setToggleMenu] = useState(false);
 
 	return (
-		<div className="navbar">
+		<div className="navbar gradient__secondary">
 			<a
 				href="/"
 				className="navbar-logo"

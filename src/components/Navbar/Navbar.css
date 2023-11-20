@@ -1,9 +1,14 @@
 .navbar {
-	padding: 1rem 2rem;
+	padding: 1rem 1.5rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	gap: 2rem;
+	width: 100%;
+	box-shadow: 0 0 0.5rem 0 black;
+	z-index: 1;
+	position: fixed;
+	top: 0;
 }
 
 .navbar-logo {
@@ -15,23 +20,23 @@
 }
 
 .navbar-logo img {
-	width: 40px;
+	width: 2rem;
 }
 
 .navbar-menu {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	gap: 5rem;
+	gap: 3rem;
 }
 
 .navbar-links-container {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
 	gap: 2rem;
 	color: white;
-	font-size: 1rem;
+	font-size: 0.9rem;
 }
 
 .navbar-links-container a:hover {
@@ -100,6 +105,7 @@
 		flex-direction: column;
 		align-items: flex-start;
 		margin-top: 2rem;
+		font-size: 1.2rem;
 	}
 
 	.navbar-sign {
@@ -127,6 +133,6 @@
 	}
 
 	.navbar-mobile-links {
-		width: 300px;
+		width: 18rem;
 	}
 }

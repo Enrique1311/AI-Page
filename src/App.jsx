@@ -1,7 +1,7 @@
 import "./App.css";
-import Brand from "./components/Brand/Brand";
 import CTAction from "./components/CTAction/CTAction";
 import Navbar from "./components/Navbar/Navbar";
+import SocialMedia from "./components/SocialMedia/SocialMedia";
 import Blog from "./containers/Blog/Blog";
 import Features from "./containers/Features/Features";
 import Footer from "./containers/Footer/Footer";
@@ -16,7 +16,6 @@ function App() {
 				<Navbar />
 				<Header />
 			</div>
-			<Brand />
 			<WhatGTP3 />
 			<Features />
 			<Possibility />

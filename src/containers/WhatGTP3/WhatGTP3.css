@@ -1,0 +1,41 @@
+.what-gtp3 {
+	background-color: var(--gradient-bg);
+}
+
+.what-gtp3-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 4rem 0;
+	gap: 3rem;
+	background-color: rgb(2, 2, 48);
+	padding: 2rem;
+}
+
+.what-gtp3-title p {
+	color: var(--color-orange);
+	cursor: pointer;
+}
+
+.what-gtp3-title h1 {
+	max-width: 36rem;
+}
+
+.what-gtp3-features {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 4rem;
+}
+
+@media screen and (max-width: 800px) {
+	.what-gtp3-features {
+		flex-direction: column;
+		max-width: 30rem;
+	}
+
+	.what-gtp3-title {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+}

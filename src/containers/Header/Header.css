@@ -3,6 +3,7 @@
 	justify-content: space-between;
 	align-items: center;
 	gap: 4rem;
+	margin-top: 4rem;
 }
 
 .header-content {
@@ -31,7 +32,7 @@
 
 .header-input input {
 	width: 100%;
-	padding: 0.5rem;
+	padding: 0.7rem 0.5rem;
 	background-color: var(--color-footer);
 	border-radius: 5px 0 0 5px;
 	border: solid 2px var(--color-footer);
@@ -42,19 +43,19 @@
 .header-input button {
 	background-color: var(--color-orange);
 	color: white;
-	width: 150px;
+	width: 12rem;
 	border: solid 2px var(--color-orange);
 	border-radius: 0 5px 5px 0;
-	font-size: 1rem;
+	font-size: 1.1rem;
 }
 
 .header-image img {
-	width: 400px;
+	width: 22rem;
 }
 
 @media screen and (max-width: 1000px) {
 	.header-image img {
-		width: 200px;
+		width: 20rem;
 	}
 }
 
@@ -63,7 +64,18 @@
 		flex-direction: column;
 	}
 
+	.header-image {
+		display: flex;
+		justify-content: center;
+	}
+
 	.header-image img {
-		width: 300px;
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.header-image img {
+		width: 70%;
 	}
 }

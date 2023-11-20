@@ -14,15 +14,45 @@ a {
 	text-decoration: none;
 }
 
+:root {
+	font-size: 18px;
+
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+	--gradient-text: radial-gradient(
+		circle at 10% 12%,
+		rgba(213, 185, 213, 1) 0%,
+		rgba(223, 130, 223, 1) 0%,
+		rgba(227, 122, 51, 1) 100%
+	);
+
+	--gradient-bar: linear-gradient(103.22deg, green -13.86%, blue 1.844);
+
+	--color-bg: black;
+	--color-footer: rgb(0, 0, 5);
+	--color-blog: rgb(44, 44, 150);
+	--color-text: rgb(24, 189, 245);
+	--color-subtext: rgb(251, 166, 129);
+	--color-orange: rgb(250, 78, 10);
+}
+
 .gradient__bg {
 	/* global 92%+ browsers support */
 	background: radial-gradient(
-		circle at 3% 5%,
-		rgba(0, 10, 76, 1) 0%,
-		rgba(0, 4, 13, 1) 100%
+		circle at 0% 0%,
+		rgba(27, 2, 157, 1) 0%,
+		rgba(0, 2, 23, 0.93) 100%
 	);
 }
 
+.gradient__secondary {
+	/* global 92%+ browsers support */
+	background: radial-gradient(
+		circle at 5% 8%,
+		rgba(21, 3, 110, 1) 0%,
+		rgba(23, 0, 23, 0.96) 100%
+	);
+}
 .gradient__text {
 	background: var(--gradient-text);
 	background-clip: text;
@@ -65,13 +95,31 @@ a {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
+	:root {
+		font-size: 16px;
+	}
+
 	.section__padding {
 		padding: 4rem;
 	}
 
 	.section__margin {
 		margin: 4rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	:root {
+		font-size: 14px;
+	}
+
+	.section__padding {
+		padding: 4rem 3rem;
+	}
+
+	.section__margin {
+		margin: 4rem 3rem;
 	}
 }
 
