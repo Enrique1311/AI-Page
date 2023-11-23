@@ -1,0 +1,42 @@
+.blog {
+	display: flex;
+	flex-direction: column;
+}
+
+.blog h2 {
+	font-size: 2rem;
+	margin-bottom: 3rem;
+	text-align: left;
+}
+
+.blog-container {
+	display: flex;
+	flex-direction: row;
+	gap: 2rem;
+}
+
+.blog-container-left {
+	flex: 0.75;
+}
+
+.blog-container-right {
+	flex: 1;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 2rem;
+}
+
+@media screen and (max-width: 1000px) {
+	.blog-container {
+		flex-direction: column-reverse;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.blog-container-right {
+		flex: 1;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-gap: 2rem;
+	}
+}

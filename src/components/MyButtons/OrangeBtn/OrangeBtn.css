@@ -11,4 +11,5 @@
 
 .orange-btn:hover {
 	background-color: transparent;
+	color: var(--color-orange);
 }

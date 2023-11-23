@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { RiMenu2Line, RiCloseLine } from "react-icons/ri";
 import world_logo from "../../assets/world-logo.png";
-import TransparentBtn from "../MyButtons/TransparentBtn/Transparent.jsx/TransparentBtn";
 import OrangeBtn from "../MyButtons/OrangeBtn/OrangeBtn";
+import TransparentBtn from "../MyButtons/TransparentBtn/TransparentBtn";
 
 const Menu = () => (
 	<div className="navbar-menu">
@@ -11,8 +11,8 @@ const Menu = () => (
 			<a href="#home">Home</a>
 			<a href="#whatGTP3">What is GTP?</a>
 			<a href="#openAI">Open AI</a>
-			<a href="#caseStudies">Case Studies</a>
-			<a href="#library">Library</a>
+			<a href="#blog">Blog</a>
+			<a href="#footer">Contacts</a>
 		</div>
 		<div className="navbar-sign">
 			{" "}

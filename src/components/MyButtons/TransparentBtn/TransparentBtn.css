@@ -1,0 +1,14 @@
+.transparent-btn {
+	padding: 0.6rem 1.4rem;
+	border: solid 2px white;
+	background-color: transparent;
+	font-weight: 600;
+	color: white;
+	border-radius: 0.3rem;
+	cursor: pointer;
+}
+
+.transparent-btn:hover {
+	background-color: white;
+	color: rgb(3, 3, 66);
+}

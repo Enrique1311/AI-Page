@@ -1,0 +1,81 @@
+.possibilities-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+}
+
+.possibilities-container img {
+	width: 50%;
+}
+
+.possibilities-container h2 {
+	font-size: 2rem;
+}
+
+.request {
+	color: var(--color-orange);
+}
+
+.texts-container {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.possibilities-text {
+	color: var(--color-text);
+}
+
+.possibilities-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2.5rem 2rem;
+	gap: 1.5rem;
+	width: 100%;
+	background: var(--gradient-text);
+	border-radius: 0.5rem;
+}
+
+.box-btn {
+	background-color: black;
+	color: white;
+	border: none;
+	padding: auto;
+	border-radius: 2rem;
+	width: 11rem;
+	height: 2.5rem;
+	cursor: pointer;
+	font-size: 0.8rem;
+}
+
+@media screen and (max-width: 800px) {
+	.possibilities-container img {
+		width: 55%;
+	}
+
+	.possibilities-box {
+		margin-top: 2rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.possibilities-container {
+		flex-direction: column;
+	}
+
+	.possibilities-container img {
+		width: 100%;
+	}
+
+	.texts-container {
+		width: 100%;
+	}
+
+	.possibilities-box {
+		margin-top: 4rem;
+	}
+}

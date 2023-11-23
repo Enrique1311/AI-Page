@@ -20,19 +20,17 @@ a {
 	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 
 	--gradient-text: radial-gradient(
-		circle at 10% 12%,
-		rgba(213, 185, 213, 1) 0%,
-		rgba(223, 130, 223, 1) 0%,
-		rgba(227, 122, 51, 1) 100%
+		circle at 0% 3%,
+		rgba(219, 92, 227, 1) 0%,
+		rgba(230, 79, 48, 1) 100%
 	);
 
 	--gradient-bar: linear-gradient(103.22deg, green -13.86%, blue 1.844);
 
 	--color-bg: black;
-	--color-footer: rgb(0, 0, 5);
-	--color-blog: rgb(44, 44, 150);
+	--color-footer: rgb(1, 1, 44);
+	--color-blog: rgb(6, 6, 83);
 	--color-text: rgb(24, 189, 245);
-	--color-subtext: rgb(251, 166, 129);
 	--color-orange: rgb(250, 78, 10);
 }
 
@@ -53,6 +51,7 @@ a {
 		rgba(23, 0, 23, 0.96) 100%
 	);
 }
+
 .gradient__text {
 	background: var(--gradient-text);
 	background-clip: text;
@@ -65,7 +64,7 @@ a {
 }
 
 .section__margin {
-	margin: 4rem 6rem;
+	margin: 4rem;
 }
 
 .scale-up-center {
