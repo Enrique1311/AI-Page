@@ -5,3 +5,13 @@
 	gap: 1.5rem;
 	margin-top: 1rem;
 }
+
+.social-media a {
+	opacity: 0.5;
+}
+
+.social-media a:hover {
+	transform: scale(1.4);
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
+}

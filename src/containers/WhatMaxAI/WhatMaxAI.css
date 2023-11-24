@@ -1,8 +1,8 @@
-.what-gtp3 {
+.what {
 	background-color: var(--gradient-bg);
 }
 
-.what-gtp3-title {
+.what-title {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -12,16 +12,16 @@
 	padding: 2rem;
 }
 
-.what-gtp3-title p {
+.what-title p {
 	color: var(--color-orange);
 	cursor: pointer;
 }
 
-.what-gtp3-title h1 {
+.what-title h1 {
 	max-width: 36rem;
 }
 
-.what-gtp3-features {
+.what-features {
 	display: flex;
 	justify-content: space-between;
 	align-items: flex-start;
@@ -29,12 +29,12 @@
 }
 
 @media screen and (max-width: 800px) {
-	.what-gtp3-features {
+	.what-features {
 		flex-direction: column;
 		max-width: 30rem;
 	}
 
-	.what-gtp3-title {
+	.what-title {
 		flex-direction: column;
 		align-items: flex-start;
 	}

@@ -50,6 +50,15 @@
 	gap: 1rem;
 }
 
+.navbar-mobile-links-back {
+	width: 100vw;
+	height: 100vh;
+	background: rgb(0, 0, 0, 0.8);
+	position: fixed;
+	top: 0;
+	right: 0;
+}
+
 .navbar-mobile-menu {
 	display: none;
 }

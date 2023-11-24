@@ -13,7 +13,7 @@ const Header = () => {
 				<div className="header-content">
 					{" "}
 					<h1 className="gradient__text">
-						Let's Build Something Amazing With GTP-3 OpenAI
+						Let's Build Something Amazing With MaxAI
 					</h1>
 					<p className="header-text">
 						Yet bed any for travelling assistance indulgence unpleasing. Not

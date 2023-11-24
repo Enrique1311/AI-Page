@@ -5,6 +5,7 @@
 	flex-direction: column;
 	background: var(--color-blog);
 	color: white;
+	border: var(--color-blog) solid 1px;
 }
 
 .article:hover {

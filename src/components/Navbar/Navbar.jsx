@@ -5,14 +5,39 @@ import world_logo from "../../assets/world-logo.png";
 import OrangeBtn from "../MyButtons/OrangeBtn/OrangeBtn";
 import TransparentBtn from "../MyButtons/TransparentBtn/TransparentBtn";
 
-const Menu = () => (
+const Menu = ({ setToggleMenu }) => (
 	<div className="navbar-menu">
 		<div className="navbar-links-container">
-			<a href="#home">Home</a>
-			<a href="#whatGTP3">What is GTP?</a>
-			<a href="#openAI">Open AI</a>
-			<a href="#blog">Blog</a>
-			<a href="#footer">Contacts</a>
+			<a
+				href="#home"
+				onClick={() => setToggleMenu(false)}
+			>
+				Home
+			</a>
+			<a
+				href="#whatGTP3"
+				onClick={() => setToggleMenu(false)}
+			>
+				What is MaxAI?
+			</a>
+			<a
+				href="#features"
+				onClick={() => setToggleMenu(false)}
+			>
+				Our AI
+			</a>
+			<a
+				href="#blog"
+				onClick={() => setToggleMenu(false)}
+			>
+				Blog
+			</a>
+			<a
+				href="#footer"
+				onClick={() => setToggleMenu(false)}
+			>
+				Contacts
+			</a>
 		</div>
 		<div className="navbar-sign">
 			{" "}
@@ -35,7 +60,7 @@ const Navbar = () => {
 					src={world_logo}
 					alt="logo"
 				/>
-				<h3>GTP3</h3>
+				<h3>MaxAI</h3>
 			</a>
 			<div className="navbar-desk-links">
 				<Menu />
@@ -47,13 +72,18 @@ const Navbar = () => {
 					onClick={() => setToggleMenu(true)}
 				/>{" "}
 				{toggleMenu && (
-					<div className="navbar-mobile-links scale-up-center">
-						<RiCloseLine
-							color="white"
-							size={30}
-							onClick={() => setToggleMenu(false)}
-						/>
-						<Menu />
+					<div className="navbar-mobile-links-back">
+						<div className="navbar-mobile-links scale-up-center">
+							<RiCloseLine
+								color="white"
+								size={30}
+								onClick={() => setToggleMenu(false)}
+							/>
+							<Menu
+								toggleMenu={toggleMenu}
+								setToggleMenu={setToggleMenu}
+							/>
+						</div>
 					</div>
 				)}
 			</div>

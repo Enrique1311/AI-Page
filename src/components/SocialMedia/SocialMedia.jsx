@@ -8,26 +8,41 @@ import { FaSlack, FaTwitter } from "react-icons/fa";
 const SocialMedia = () => {
 	return (
 		<div className="social-media">
-			<FaFacebookSquare
-				color="grey"
-				size={30}
-			/>
-			<RiInstagramFill
-				color="gray"
-				size={30}
-			/>
-			<FaTwitter
-				color="gray"
-				size={30}
-			/>
-			<AiOutlineDropbox
-				color="gray"
-				size={30}
-			/>
-			<FaSlack
-				color="gray"
-				size={30}
-			/>
+			<a href="#">
+				{" "}
+				<FaFacebookSquare
+					color="grey"
+					size={30}
+				/>
+			</a>
+			<a href="#">
+				{" "}
+				<RiInstagramFill
+					color="gray"
+					size={30}
+				/>
+			</a>
+			<a href="#">
+				{" "}
+				<FaTwitter
+					color="gray"
+					size={30}
+				/>
+			</a>
+			<a href="#">
+				{" "}
+				<AiOutlineDropbox
+					color="gray"
+					size={30}
+				/>
+			</a>
+			<a href="#">
+				{" "}
+				<FaSlack
+					color="gray"
+					size={30}
+				/>
+			</a>
 		</div>
 	);
 };

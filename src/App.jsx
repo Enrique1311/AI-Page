@@ -4,7 +4,7 @@ import Blog from "./containers/Blog/Blog";
 import Features from "./containers/Features/Features";
 import Footer from "./containers/Footer/Footer";
 import Header from "./containers/Header/Header";
-import WhatGTP3 from "./containers/WhatGTP3/WhatGTP3";
+import WhatMaxAI from "./containers/WhatMaxAI/WhatMaxAI";
 
 function App() {
 	return (
@@ -15,7 +15,7 @@ function App() {
 			</div>
 			<div className="app-content">
 				{" "}
-				<WhatGTP3 />
+				<WhatMaxAI />
 				<Features />
 				<Blog />
 				<Footer />

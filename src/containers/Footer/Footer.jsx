@@ -17,7 +17,7 @@ const Footer = () => {
 				<TransparentBtn>Request Early Access</TransparentBtn>
 				<div className="footer-content">
 					<div className="footer-logo">
-						<h3>GPT-3</h3>
+						<h3>MaxAI</h3>
 						<p>All Rights Reserved</p>
 						<SocialMedia />
 					</div>
@@ -38,9 +38,9 @@ const Footer = () => {
 						</div>
 						<div className="footer-items">
 							<h4>Get in touch</h4>
-							<p>Crechterwoord K12 182 DK</p>
-							<p>085-132567</p>
-							<p>info@payme.net</p>
+							<p>Crechterwoord K12 354 DK</p>
+							<p>085-123456</p>
+							<p>info@paymemaxai.net</p>
 						</div>
 					</div>
 				</div>
