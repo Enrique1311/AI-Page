@@ -72,7 +72,10 @@ const Navbar = () => {
 					onClick={() => setToggleMenu(true)}
 				/>{" "}
 				{toggleMenu && (
-					<div className="navbar-mobile-links-back">
+					<div
+						className="navbar-mobile-links-back"
+						onClick={() => setToggleMenu(false)}
+					>
 						<div className="navbar-mobile-links scale-up-center">
 							<RiCloseLine
 								color="white"
