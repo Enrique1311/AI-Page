@@ -16,7 +16,7 @@ const WhatMaxAI = () => {
 			</div>
 			<div className="what-title gradient__secondary">
 				<h1 className="gradient__text">
-					What is MaxAI The possibilities are beyond your imagination
+					What is MaxAI? The possibilities are beyond your imagination
 				</h1>
 				<p>Explore The Library</p>
 			</div>

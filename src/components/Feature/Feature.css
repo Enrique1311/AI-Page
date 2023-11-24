@@ -16,8 +16,7 @@
 
 .feature-text {
 	color: var(--color-text);
-	font-size: 0.9rem;
-	font-weight: lighter;
+	font-size: 1rem;
 }
 
 .feature-bar {
