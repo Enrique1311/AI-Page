@@ -1,6 +1,6 @@
 # OpenAI´s Frontend Website (similar)
 
-![BANNER!](ai_website)
+![BANNER!](ai_website.png)
 
 ## 
 
